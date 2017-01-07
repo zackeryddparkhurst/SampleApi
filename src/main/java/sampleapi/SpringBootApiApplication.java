@@ -20,7 +20,7 @@ public class SpringBootApiApplication {
         @RequestMapping(value = "/hello/{name}", method = RequestMethod.GET)
         public String sayHello(@PathVariable String name) {
             System.out.println(name + " just said hello");
-            return "Hello " + name + " great day we are having today";
+            return "Hello " + name + " hows it hangin";
         }
     }
 }
